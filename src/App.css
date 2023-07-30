@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* Estilos generales */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos del contenedor del header */
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header__image{
+    background-image: url(../public/RyM.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    
+}
+
+.cuadrar__form{
+    display: flex;
+    align-items: center;
+}
+
+.cuadrar__form>input{
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 14px;
+    padding: 6px;
+  
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cuadrar__form>button{
+    border-radius: 0 5px 5px 0;
+    background-color:green;
+    color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 0 5px 0 5px ;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0 2rem 0;
+    gap: 1rem;
+    
+}
+
+article{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+
+/* Estilos del contenedor de las tarjetas */
 .resident-container{
     display: flex;
     gap: 2em;
@@ -8,3 +79,5 @@
 input,button{
     font-size: 1.5rem;
 }
+
+

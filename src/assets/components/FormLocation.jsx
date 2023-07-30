@@ -14,8 +14,8 @@ const FormLocation = ({setIdLocation}) => {
    }
      return (
     <form className="cuadrar__form" onSubmit={handleSubmit}>
-        <input id="inputId" style={{boxShadow:'1px 1px 10px'}} type="text" />
-        <button style={{background:'darkblue',color:'white'}}>Search</button>
+        <input id="inputId"  type="text" />
+        <button >Search</button>
     </form>
   )
 }
