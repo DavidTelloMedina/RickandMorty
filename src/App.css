@@ -75,8 +75,7 @@ article{
     flex-wrap: wrap;
     justify-content: center;
     padding: 15px 0;
-    background-color: grey;
-    opacity: 50%;
+   
 }
 input,button{
     font-size: 1.5rem;
