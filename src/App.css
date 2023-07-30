@@ -9,6 +9,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(37, 145, 59);
+
 }
 
 /* Estilos del contenedor del header */
@@ -44,7 +46,7 @@ body{
 
 .cuadrar__form>button{
     border-radius: 0 5px 5px 0;
-    background-color:green;
+    background-color:blackgit ;
     color: white;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     padding: 0 5px 0 5px ;
@@ -82,3 +84,9 @@ input,button{
 }
 
 
+/* 
+    CUANDO QUIERA HACER ALGUN CAMBIO
+    GIT ADD .
+    GIT COMMIT -M ''
+    GIT PUSH
+*/
